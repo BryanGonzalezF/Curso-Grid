@@ -1,0 +1,16 @@
+.padre {
+  display: grid;
+  background-color: greenyellow;
+  border: 3px solid green;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px;
+  height: 600px;
+  justify-content: center;
+  align-content: center;
+  justify-items: end;
+  align-items: end;
+}
+
+.hijos {
+  border: 3px solid green;
+}

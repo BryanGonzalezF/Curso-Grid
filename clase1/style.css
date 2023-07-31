@@ -1,0 +1,21 @@
+.contenedor {
+  background-color: #ffffff;
+  border: solid 5px cadetblue;
+  display: grid; /* definimos que el contenedor es de tipo grid */
+  grid-template-columns: 150px 150px 150px; /* nos funciona para definir la cantidad de columnas que queremos */
+  grid-template-rows: 150px 150px; /* nos funciona para definir la cantidad de filas */
+  grid-auto-flow: column;
+  /* grid-auto-rows: ;  */
+  gap: 15px;
+  height: 600px;
+  place-content: end;
+}
+
+.items {
+  font-size: 4rem;
+  border: solid 5px cadetblue;
+}
+
+.items-1 {
+  justify-self: st;
+}
